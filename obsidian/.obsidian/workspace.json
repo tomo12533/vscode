@@ -11,10 +11,17 @@
             "id": "88b162b7309d896f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新規タブ"
+              "type": "canvas",
+              "state": {
+                "file": "ワークフロー図(1).canvas",
+                "viewState": {
+                  "x": 142.5,
+                  "y": 420,
+                  "zoom": -2.1550132920383844
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ワークフロー図(1)"
             }
           }
         ]
@@ -176,15 +183,15 @@
   },
   "active": "88b162b7309d896f",
   "lastOpenFiles": [
-    "obsidian.md",
-    "無題のファイル.md",
     "Dockerについて.canvas",
-    "Inbox.md",
-    "ワークフロー図(1).canvas",
+    "git&github(編集中).canvas",
     "Tldraw 2025-07-15 9.18午後.md",
     "スクリーンショット 2025-07-15 22.09.29.png",
     "マークダウン書き方.md",
-    "git&github(編集中).canvas",
+    "obsidian.md",
+    "無題のファイル.md",
+    "Inbox.md",
+    "ワークフロー図(1).canvas",
     "無題のフォルダ"
   ]
 }
