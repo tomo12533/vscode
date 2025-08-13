@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"b612ca51df9dc9dc","type":"group","x":-615,"y":620,"width":290,"height":580,"label":"5ステップ"},
+		{"id":"a22a21784d48c475","type":"group","x":-640,"y":-360,"width":290,"height":420,"label":"メソッド"},
+		{"id":"d7ea2058a4e77c70","type":"text","text":"プロジェクト作成","x":680,"y":0,"width":250,"height":60},
+		{"id":"593979301299308d","type":"text","text":"Permanentノート作成","x":680,"y":-218,"width":250,"height":50},
+		{"id":"0d85e550c17aa9ca","type":"text","text":"Dailiyプランニング\nWeekliyプランニング","x":320,"y":-70,"width":250,"height":60},
+		{"id":"0ea1457ed1ae82ed","type":"text","text":"タスクとして処理","x":645,"y":165,"width":250,"height":60},
+		{"id":"1be9c8b405146bea","type":"text","text":"アイデアノート","x":-240,"y":-152,"width":202,"height":70,"color":"5"},
+		{"id":"e35ea20591fd7b77","type":"text","text":"1.頭の中にある気になっていることをすべて書き出す","x":-620,"y":-340,"width":250,"height":125},
+		{"id":"a6c5c39e6c9b349a","type":"text","text":"2.その気になっていることを分類し、次のアクション（具体的な行動）をいつ起こすのかを決める","x":-620,"y":-215,"width":250,"height":125},
+		{"id":"c67efabe60c3c542","type":"text","text":"3.アクションを信頼できるシステムで管理し、定期的に見直す","x":-620,"y":-90,"width":250,"height":125},
+		{"id":"741d551ddb79e0a9","type":"text","text":"メリット\n・精神的ストレスの減少\n・ビジネスからプライベートまでタスクを一元管理できる\n・生産性の最大化","x":-645,"y":160,"width":300,"height":271},
+		{"id":"83f5e79c32da33c7","type":"text","text":"1.把握する","x":-595,"y":640,"width":250,"height":60},
+		{"id":"bee982037e6ffd5b","type":"text","text":"2.見極める","x":-595,"y":760,"width":250,"height":60},
+		{"id":"06ee3d4d55bdc0f6","type":"text","text":"3.整理する","x":-595,"y":880,"width":250,"height":60},
+		{"id":"b65b59dd22a5f8f1","type":"text","text":"4.更新する","x":-595,"y":1000,"width":250,"height":60},
+		{"id":"3e6a965a48c87686","type":"text","text":"5.選択する","x":-595,"y":1120,"width":250,"height":60},
+		{"id":"c1194a893b1a1f17","type":"file","file":"スクリーンショット 2025-07-15 22.09.29.png","x":-108,"y":277,"width":913,"height":663}
+	],
+	"edges":[
+		{"id":"19978ffa17889c1e","fromNode":"0d85e550c17aa9ca","fromSide":"right","toNode":"593979301299308d","toSide":"left"},
+		{"id":"a04c3a4d800b48f6","fromNode":"0d85e550c17aa9ca","fromSide":"right","toNode":"d7ea2058a4e77c70","toSide":"left"},
+		{"id":"abd58f3ed4e89a50","fromNode":"1be9c8b405146bea","fromSide":"right","toNode":"0d85e550c17aa9ca","toSide":"left"},
+		{"id":"7aa78a95c9a6c841","fromNode":"0d85e550c17aa9ca","fromSide":"right","toNode":"0ea1457ed1ae82ed","toSide":"left"}
+	]
+}

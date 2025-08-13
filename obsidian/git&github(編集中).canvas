@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"b3614487f5b38eb8","type":"group","x":280,"y":1200,"width":840,"height":1200,"label":"ローカル"},
+		{"id":"481eb682fbf0c10b","type":"text","text":"#### ワークツリー","x":300,"y":2280,"width":376,"height":50},
+		{"id":"32526b7da8125b80","type":"text","text":"#### ステージ\n#### （インデックス）","x":332,"y":1800,"width":250,"height":100},
+		{"id":"acf74d49dfd2b11a","type":"text","text":"#### ローカルリポジトリ","x":488,"y":1220,"width":188,"height":100},
+		{"id":"a70cd0028af8744b","type":"text","text":"変更を記録する（コミット）\ngit commit\ngit commit -m \"<メッセージ>\"\ngit commit -v\n\nコミットメッセージ\n簡単に書く時\n・変更内容の要点と理由を一行で簡潔に書く\n正式に書く時\n1行目：変更内容の要約\n2行目：空行\n3行目：変更した理由\n","x":274,"y":560,"width":308,"height":360},
+		{"id":"b9d3f46f73e0945d","type":"text","text":"GitHub\n他の人が作ったものをコピーする\n\ngit clone <リポジトリ名>\n・リモートリポジトリのファイルがワークツリーにコピーされる\n・リポジトリ（.gitディレクトリ）がコピーされる\n\n","x":715,"y":390,"width":445,"height":390},
+		{"id":"fe597e66f32791fa","type":"text","text":"#### GitHub\n#### (リモートリポジトリ)","x":840,"y":880,"width":400,"height":120},
+		{"id":"5605aa0fd3092a3d","type":"text","text":"変更をステージに追加する\ngit add <ファイル名>\ngit add <ディレクトリ名>\ngit add .\n\n\n","x":274,"y":270,"width":308,"height":160},
+		{"id":"570d759c8ca416e2","type":"text","text":"練習用ディレクトリ作成\n/Users/toshikazu/udemy_git\n\ncd udemy_git\ngit init","x":274,"y":-40,"width":308,"height":195}
+	],
+	"edges":[
+		{"id":"42e30cd5d81acc55","fromNode":"32526b7da8125b80","fromSide":"top","toNode":"acf74d49dfd2b11a","toSide":"bottom","label":"コミット\ngit commit\nスナップショットを記録"},
+		{"id":"e55e86a74250eb32","fromNode":"acf74d49dfd2b11a","fromSide":"top","toNode":"fe597e66f32791fa","toSide":"bottom","label":"GitHubへアップ"},
+		{"id":"a7d58fafea975578","fromNode":"fe597e66f32791fa","fromSide":"bottom","toNode":"acf74d49dfd2b11a","toSide":"right","label":"GitHubの記録を取得"},
+		{"id":"184c3a614abaae77","fromNode":"acf74d49dfd2b11a","fromSide":"right","toNode":"481eb682fbf0c10b","toSide":"right","label":"GitHubの記録を反映"},
+		{"id":"c9ef3c0223759db6","fromNode":"481eb682fbf0c10b","fromSide":"top","toNode":"32526b7da8125b80","toSide":"bottom","label":"変更を追加\ngit add"},
+		{"id":"119ea6548b9c6c17","fromNode":"570d759c8ca416e2","fromSide":"bottom","toNode":"5605aa0fd3092a3d","toSide":"top"},
+		{"id":"e8f987ba6deacd9e","fromNode":"5605aa0fd3092a3d","fromSide":"bottom","toNode":"a70cd0028af8744b","toSide":"top"}
+	]
+}

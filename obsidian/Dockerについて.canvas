@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"056eca892a1118fc","type":"text","text":"Dockerのメリット\n①どのコンピュータ上でも全く同じ環境を作り出すことができる\n②OSの指定・ミドルウェアのインストール環境設定がコード化されているので再利用・バージョン管理・配布が容易\n③クラウド上に自動でサーバを構築できる\n④Docker Hubで一般公開されているコンテナイメージを誰でも使うことができる\n","x":-125,"y":-280,"width":250,"height":420},
+		{"id":"1f0eb28acdc68e9d","type":"text","text":"Docker Desktopをインストール(Mac,Windows,Linux)\nhttps://docs.docker.com/desktop/#download-and-install\n\n\nGoogleアカウントでログイン\nユーザ名：tomoda012\n\nPowerShell Terminal\nインストール後の確認\ndocker --version\n\nCocker Hubからイメージを引っ張る\nhttps://hub.docker.com/\n\nDocker Hub上にあるコンテナイメージをローカルにダウンロード\ndocker pull\n※どのディレクトリにいても実行して良い\n\nPC内にあるコンテナイメージの情報が表示される\ndocker images\n\nコンテナを作成して起動\ndocker run\n例：docker run --name test-mysql -p 13306:3306 -e MYSQL_ROOT_PASSWORD=testtest12 -d mysql:oraclelinux9\n\n起動しているコンテナの情報を表示\ndocker ps\n\nコンテナの中に入る\ndocker exec -it\n-itを付けるとコンテナ側でのコマンド操作を現在のコンソールから操作できる\n例：docker exevc it test-mysql bash\nbashを付けるとコンテナ内でbashを利用する\n\n外からコンテナの停止\ndocker stop test-sql\n\n停止しているコンテナも表示\ndocker ps -a\n\n停止したコンテナを再度起動\ndocker start test-mysql\n\nコンテナの削除\ndocker rm test-mysql\n\nコンテナイメージの削除\ndocker rmi mysql:oraclelinux9\n\n\n\n","x":-125,"y":180,"width":285,"height":1520},
+		{"id":"1f539221e7aa21c2","type":"text","text":"Dockerファイルをカスタマイズ\n・何も入っていない特定のOSのコンテナイメージを使うことが多い\n・Dockerファイル独自の命令分を使って書く\n\nDockerfileからコンテナイメージを作成\ndocker build -t （タグを作成） -f　（パスを指定デフォルトはDockerfile）\n※ビルドコンテキストには余計なファイルは置かない\nビルド時に読み込まれてしまう\n手順\n①Dockerfileが置いてあるディレクトリに移動\n②余計なファイルが置いてないことを確認\n③ビルドコンテキストに「.」を設定\n例）docker build -t test-python:1.0 .\n\n起動\ndocker run --name test-server -it -d test-python:1.0\nコンテナ内へ\ndocker exec -it test-server bash","x":-125,"y":1800,"width":325,"height":740}
+	],
+	"edges":[]
+}
