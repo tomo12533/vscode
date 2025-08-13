@@ -11,14 +11,17 @@
             "id": "88b162b7309d896f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "obsidian.md",
-                "mode": "source",
-                "source": false
+                "file": "Dockerについて.canvas",
+                "viewState": {
+                  "x": 37.5,
+                  "y": 1130,
+                  "zoom": -2.1853550420119188
+                }
               },
-              "icon": "lucide-file",
-              "title": "obsidian"
+              "icon": "lucide-layout-dashboard",
+              "title": "Dockerについて"
             }
           }
         ]
@@ -142,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian.md",
+                "file": "Dockerについて.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "obsidianのアウトライン"
+              "title": "Dockerについてのアウトライン"
             }
           },
           {
@@ -179,16 +182,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86372f4a8bacca7c",
+  "active": "88b162b7309d896f",
   "lastOpenFiles": [
+    "git&github(編集中).canvas",
+    "obsidian.md",
     "ワークフロー図(1).canvas",
     "マークダウン書き方.md",
     "スクリーンショット 2025-07-15 22.09.29.png",
     "Tldraw 2025-07-15 9.18午後.md",
     "Inbox.md",
-    "git&github(編集中).canvas",
     "Dockerについて.canvas",
-    "obsidian.md",
     "無題のファイル.md",
     "無題のフォルダ"
   ]
